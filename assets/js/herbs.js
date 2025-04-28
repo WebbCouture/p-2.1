@@ -7,7 +7,7 @@
       { title: "Bilberry", benefits: "Improves night vision", imageUrl: "https://images.unsplash.com/photo-1658509565784-d425ada6c327?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     hairHerbs: [
-      { title: "Test1", benefits: "Test2", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Test1", benefits: "Test2", imageUrl: "https://unsplash.com/photos/brown-and-blue-hair-brush-edL3qKlrrr0" },
       { title: "Lavender", benefits: "Promotes hair growth", imageUrl: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
       { title: "Peppermint", benefits: "Stimulates scalp", imageUrl: "https://plus.unsplash.com/premium_photo-1673264303561-de2ab31df03c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
