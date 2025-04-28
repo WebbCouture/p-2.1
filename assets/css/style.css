@@ -61,7 +61,7 @@ body {
   min-width: 0;
   gap: 15px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .box img {
@@ -73,14 +73,14 @@ body {
 
 .box h3 {
   padding: 5px;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 /* Highlight active box */
 .box.active {
   flex: 1;
-  border: 3px solid #006ab1;
-  background-color: #eaf2f8;
+  border: 3px solid #641160;
+  background-color: #e674cd;
   z-index: 1;
   opacity: 1;
   transform: scale(1.1);
