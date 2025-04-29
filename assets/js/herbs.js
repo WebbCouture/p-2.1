@@ -7,7 +7,7 @@
       { title: "Bilberry", benefits: "Improves night vision", imageUrl: "https://images.unsplash.com/photo-1658509565784-d425ada6c327?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     hairHerbs: [
-      { title: "Test1", benefits: "Test2", imageUrl: "https://unsplash.com/photos/brown-and-blue-hair-brush-edL3qKlrrr0" },
+      { title: "Test1", benefits: "Test2", imageUrl: "https://images.unsplash.com/photo-1745905932716-431e50eac74b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
       { title: "wow1", benefits: "wow2", imageUrl: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" },
       { title: "koko1", benefits: "koko2", imageUrl: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" }
     ],
