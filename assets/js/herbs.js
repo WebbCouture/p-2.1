@@ -7,9 +7,9 @@
       { title: "Bilberry", benefits: "Improves night vision", imageUrl: "https://images.unsplash.com/photo-1658509565784-d425ada6c327?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     hairHerbs: [
-      { title: "Test1", benefits: "Test2", imageUrl: "https://images.unsplash.com/photo-1745905932716-431e50eac74b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "wow1", benefits: "wow2", imageUrl: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" },
-      { title: "koko1", benefits: "koko2", imageUrl: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" }
+      { title: "Products", benefits: "Hair treatment", imageUrl: "https://media.istockphoto.com/id/1074797524/sv/foto/bild-av-showcase-med-flaskor-med-schampo-och-balsam.jpg?s=2048x2048&w=is&k=20&c=hOo93bzAhSO4gQ6YtTp0N8B3c_B_vGpowOCf8il8P1o=" },
+      { title: "Refill bottles", benefits: "Own design", imageUrl: "https://plus.unsplash.com/premium_photo-1680853621273-c5e174898f1f?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Hair treatmend", benefits: "Waching products", imageUrl: "https://plus.unsplash.com/premium_photo-1661672325251-683e6f7dea00?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     brainHerbs: [
       { title: "Skullcap", benefits: "Cleans and strengthens hair", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
