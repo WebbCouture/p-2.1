@@ -1,12 +1,12 @@
 // script.js
-import { herbData } from './herbs.js'; // Importing the herb data
+import { herbData } from './beauty.js'; // Importing the herb data
 
 // Adding event listeners to body part selection
 document.querySelectorAll('.box').forEach(box => {
     box.addEventListener('click', () => {
         const category = box.id;  // Get the category based on clicked body part
-        const herbs = getHerbsByCategory(category);
-        displayHerbs(herbs); // Display the herbs related to the body part
+        const beauty = getbeautyByCategory(category);
+        displaybeauty(beauty); // Display the beauty related to the body part
 
         const boxes = document.querySelectorAll('.box');
         // Remove active class from all boxes
@@ -16,17 +16,17 @@ document.querySelectorAll('.box').forEach(box => {
     });
 });
 
-// Function to get herbs based on the category selected
-function getHerbsByCategory(category) {
-    const categoryData = herbData[category + 'Herbs']; // Access the correct category in the herbData object
+// Function to get beauty based on the category selected
+function getbeautyByCategory(category) {
+    const categoryData = herbData[category + 'beauty']; // Access the correct category in the herbData object
     return categoryData ? categoryData : []; // Return the herb data or an empty array if not found
 }
 
-// Function to display the herbs in the UI
-function displayHerbs(herbs) {
+// Function to display the beauty in the UI
+function displaybeauty(beauty) {
     const contentContainer = document.querySelector('.cards');
     contentContainer.innerHTML = ''; // Clear existing content
-    herbs.forEach(herb => {
+    beauty.forEach(herb => {
         const herbCard = createHerbCard(herb);
         contentContainer.appendChild(herbCard); // Append each herb card to the container
     });
