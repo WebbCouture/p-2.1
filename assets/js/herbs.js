@@ -17,9 +17,9 @@
       { title: "Treatment", benefits: "Scissor oil", imageUrl: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     ],
     teethHerbs: [
-      { title: "Echinacea", benefits: "Anti-infective herbs, regulate bacteria, eliminating obvious infections and relieving pain.", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Nettle", benefits: "Addresses systemic mineral deficiencies particularly iron", imageUrl: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
-      { title: "Sage", benefits: "Anti-infective, astringent, and circulation-stimulating", imageUrl: "https://plus.unsplash.com/premium_photo-1673264303561-de2ab31df03c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+      { title: "Makeup", benefits: "Natural mineral makeup", imageUrl: "https://media.istockphoto.com/id/1658893205/sv/foto/make-up-products-at-pink-background-top-view.jpg?s=2048x2048&w=is&k=20&c=R4A4iuQefwdoDZYk0Zz97s17vuV-B48a4ngphT0cL0E=" },
+      { title: "Bruches", benefits: "Made with care", imageUrl: "https://media.istockphoto.com/id/1358832083/sv/foto/paintbrushes-on-a-pink-background-glamorous-makeup-artist-table-brushes-for-applying-powder.jpg?s=2048x2048&w=is&k=20&c=SBd_OTJx4hDwYoLgTkCre8vMM1EfuLW4BJrhn_Dg5-s=" },
+      { title: "Skincare", benefits: "For sensitive scin", imageUrl: "https://media.istockphoto.com/id/1688862517/sv/foto/pink-skin-care-routine-products.jpg?s=2048x2048&w=is&k=20&c=4HSresG5r5I9eHPqqcaFZgJn0Gq1hLVVkXrirVHYiLQ=" }
     ],
     heartHerbs: [
       { title: "Dandelion", benefits: "Cleans and strengthens hair", imageUrl: "https://images.unsplash.com/photo-1475140604894-b4aaba075542?q=80&w=1423&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
