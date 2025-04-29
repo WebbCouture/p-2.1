@@ -102,7 +102,7 @@ body {
   min-width: 0;
 }
 
-/* Herb card styling */
+/* beauty card styling */
 .content-placeholder {
   margin: 0px 10px;
 }
@@ -120,7 +120,7 @@ body {
   gap: 15px;
 }
 
-.herb-card {
+.beauty-card {
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -130,7 +130,7 @@ body {
   transition: transform 0.3s ease;
 }
 
-.herb-card:hover {
+.beauty-card:hover {
   transform: translateY(-5px);
 }
 
@@ -156,14 +156,14 @@ body {
   text-align: center;
 }
 
-.herb-title {
+.beauty-title {
   font-size: 1.2rem;
   font-weight: bold;
   margin: 10px 0;
   color: #2c3e50;
 }
 
-.herb-link {
+.beauty-link {
   margin-top: 10px;
   color: #3498db;
   text-decoration: none;
@@ -171,7 +171,7 @@ body {
   font-size: 0.9rem;
 }
 
-.herb-link:hover {
+.beauty-link:hover {
   text-decoration: underline;
 }
 
@@ -183,7 +183,7 @@ body {
     max-width: 150px;
   }
 
-  .herb-card {
+  .beauty-card {
     max-width: 300px;
   }
 

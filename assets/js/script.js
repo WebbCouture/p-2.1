@@ -1,5 +1,5 @@
 // script.js
-import { herbData } from './beauty.js'; // Importing the herb data
+import { beautyData } from './beauty.js'; // Importing the beauty data
 
 // Adding event listeners to body part selection
 document.querySelectorAll('.box').forEach(box => {
@@ -18,32 +18,32 @@ document.querySelectorAll('.box').forEach(box => {
 
 // Function to get beauty based on the category selected
 function getbeautyByCategory(category) {
-    const categoryData = herbData[category + 'beauty']; // Access the correct category in the herbData object
-    return categoryData ? categoryData : []; // Return the herb data or an empty array if not found
+    const categoryData = beautyData[category + 'beauty']; // Access the correct category in the beautyData object
+    return categoryData ? categoryData : []; // Return the beauty data or an empty array if not found
 }
 
 // Function to display the beauty in the UI
 function displaybeauty(beauty) {
     const contentContainer = document.querySelector('.cards');
     contentContainer.innerHTML = ''; // Clear existing content
-    beauty.forEach(herb => {
-        const herbCard = createHerbCard(herb);
-        contentContainer.appendChild(herbCard); // Append each herb card to the container
+    beauty.forEach(beauty => {
+        const beautyCard = createbeautyCard(beauty);
+        contentContainer.appendChild(beautyCard); // Append each beauty card to the container
     });
 }
 
-// Function to create a herb card element
-function createHerbCard(herb) {
+// Function to create a beauty card element
+function createbeautyCard(beauty) {
     const card = document.createElement('div');
-    card.classList.add('herb-card');
+    card.classList.add('beauty-card');
     card.innerHTML = `
         <div class="card-header">
-            <img src="${herb.imageUrl}" alt="${herb.title}">
+            <img src="${beauty.imageUrl}" alt="${beauty.title}">
         </div>
         <div class="card-content">
-            <h3 class="herb-title">${herb.title}</h3>
-            <p class="herb-benefits">${herb.benefits}</p>
-            <a class="herb-link" href="#" target="_blank">Learn more</a>
+            <h3 class="beauty-title">${beauty.title}</h3>
+            <p class="beauty-benefits">${beauty.benefits}</p>
+            <a class="beauty-link" href="#" target="_blank">Learn more</a>
         </div>
     `;
     return card;

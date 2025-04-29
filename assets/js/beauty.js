@@ -1,6 +1,6 @@
 
   // beauty.js
-  export const herbData = {
+  export const beautyData = {
     hairbeauty: [
       { title: "Products", benefits: "Hair treatment", imageUrl: "https://media.istockphoto.com/id/1074797524/sv/foto/bild-av-showcase-med-flaskor-med-schampo-och-balsam.jpg?s=2048x2048&w=is&k=20&c=hOo93bzAhSO4gQ6YtTp0N8B3c_B_vGpowOCf8il8P1o=" },
       { title: "Refill bottles", benefits: "Own design", imageUrl: "https://plus.unsplash.com/premium_photo-1680853621273-c5e174898f1f?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
