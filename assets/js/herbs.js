@@ -22,9 +22,9 @@
       { title: "Skincare", benefits: "For sensitive scin", imageUrl: "https://media.istockphoto.com/id/1688862517/sv/foto/pink-skin-care-routine-products.jpg?s=2048x2048&w=is&k=20&c=4HSresG5r5I9eHPqqcaFZgJn0Gq1hLVVkXrirVHYiLQ=" }
     ],
     heartHerbs: [
-      { title: "Dandelion", benefits: "Cleans and strengthens hair", imageUrl: "https://images.unsplash.com/photo-1475140604894-b4aaba075542?q=80&w=1423&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Resveratrol", benefits: "Promotes hair growth", imageUrl: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
-      { title: "Green-Tea", benefits: "Stimulates scalp", imageUrl: "https://images.unsplash.com/photo-1701520839071-55bdfe64c5ed?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+      { title: "Hairdryer", benefits: "Powerful and quiet", imageUrl: "https://images.unsplash.com/photo-1715220169023-c1d5c8d2be37?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Hair trimmer", benefits: "Best on the market", imageUrl: "https://images.unsplash.com/photo-1666622834106-4559bb3c76a3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Barber", benefits: "Knife and more", imageUrl: "https://media.istockphoto.com/id/640276164/sv/foto/professional-barber-getting-rid-of-male-stubble.jpg?s=2048x2048&w=is&k=20&c=Zgztwo8Zph_6WpuQKUo2OU-DQHGrOrRFa-6aYDxcQ7E=" }
     ],
     lungHerbs: [
       { title: "Mugwort", benefits: "Cleans lungs", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
