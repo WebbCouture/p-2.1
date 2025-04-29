@@ -12,12 +12,9 @@
       { title: "Hair treatmend", benefits: "Waching products", imageUrl: "https://plus.unsplash.com/premium_photo-1661672325251-683e6f7dea00?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     brainHerbs: [
-      { title: "Skullcap", benefits: "Cleans and strengthens hair", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Resveratrol", benefits: "Antioxidant and anti-inflammatory properties to protect you against diseases like cancer, diabetes, and Alzheimer's disease", imageUrl: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
-      { title: "Green-Tea", benefits: "Reduces inflammation after head injury", imageUrl: "https://images.unsplash.com/photo-1701520839071-55bdfe64c5ed?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Fasting", benefits: "Clears excess mucus accumulation, increases clarity, and reduces brain fog", imageUrl: "https://images.unsplash.com/photo-1559839914-17aae19cec71?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Rosemary", benefits: "Stimulates scalp, improving circulation", imageUrl: "https://plus.unsplash.com/premium_photo-1661697466676-200ffe1cbf1e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Cayenne and Ginger", benefits: "Sends blood to the head, improving circulation and clearing brain fog", imageUrl: "https://images.unsplash.com/photo-1599940859674-a7fef05b94ae?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+      { title: "Scissors", benefits: "Origninal", imageUrl: "https://images.unsplash.com/photo-1696091997052-f52f85285d8d?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Scissors", benefits: "Thin oute", imageUrl: "https://images.unsplash.com/photo-1589876518759-5b460cabcc4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Treatment", benefits: "Scissor oil", imageUrl: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     ],
     teethHerbs: [
       { title: "Echinacea", benefits: "Anti-infective herbs, regulate bacteria, eliminating obvious infections and relieving pain.", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
