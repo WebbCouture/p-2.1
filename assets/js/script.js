@@ -43,7 +43,6 @@ function createbeautyCard(beauty) {
         <div class="card-content">
             <h3 class="beauty-title">${beauty.title}</h3>
             <p class="beauty-benefits">${beauty.benefits}</p>
-            <a class="beauty-link" href="#" target="_blank">Learn more</a>
         </div>
     `;
     return card;
