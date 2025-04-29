@@ -27,21 +27,26 @@
       { title: "Crasy colors", benefits: "Dear to be colorful", imageUrl: "https://images.unsplash.com/photo-1546561925-a427a021303a?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     interiorbeauty: [
-      { title: "Seeds", benefits: "Cleans lungs", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Irish Moss", benefits: "Antiviral and Antibacterial properties", imageUrl: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
-      { title: "Dillsk", benefits: "Relieves congestion", imageUrl: "https://plus.unsplash.com/premium_photo-1673264303561-de2ab31df03c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wx" }
+      { title: "Custum interior", benefits: "Chair, Mirror etc.", imageUrl: "https://media.istockphoto.com/id/1454859919/sv/foto/white-luxury-modern-salon-interior-3d-rendering.jpg?s=2048x2048&w=is&k=20&c=BpNst68LUUm9MPEKZm36tR3eZmUhLBn9kZLnsgj_ibc=" },
+      { title: "Wash chair", benefits: "Comfortable and classic", imageUrl: "https://media.istockphoto.com/id/2164364866/sv/foto/woman-shower-and-shampoo-in-beauty-salon-with-hands-basin-or-process-for-hygiene-cleaning-and.jpg?s=2048x2048&w=is&k=20&c=DkjwGAYyHGQKXCHgUK0pmrMUXYfbB3QekqppQfX5Rv4=" },
+      { title: "Payment station", benefits: "Clean and functionable", imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
-    lymphaticbeauty: [
-      { title: "Polk Root", benefits: "Cleans lungs", imageUrl: "https://plus.unsplash.com/premium_photo-1664200731344-ef1ad87aa0a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Wormwood", benefits: "Antiviral and Antibacterial properties", imageUrl: "https://plus.unsplash.com/premium_photo-1678653651270-9f0f68119d99?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Yoga", benefits: "Relieves congestion", imageUrl: "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+    clothesbeauty: [
+      { title: "Apron", benefits: "Protect your clothes", imageUrl: "https://media.istockphoto.com/id/1066846954/sv/foto/h%C3%A5rtv%C3%A4tt.jpg?s=2048x2048&w=is&k=20&c=gUp3ZvzyacH4m2u_IO3dyQ5n-JZFb-CTAMrJDsLvWaM=" },
+      { title: "Robe", benefits: "Protect your custumer", imageUrl: "https://media.istockphoto.com/id/931164704/sv/foto/fris%C3%B6r-och-kunden-diskutera-besluta-att-v%C3%A4lja-hur-man-klippa-h%C3%A5ret-i-fris%C3%B6rsalong.jpg?s=2048x2048&w=is&k=20&c=kyr3JAMBOeNj6q2yyLLsYEMsBcEv3r6573tChdTouXc=" },
+      { title: "Basci clothes", benefits: "For you to work in", imageUrl: "https://media.istockphoto.com/id/1215895445/sv/foto/kvinnlig-fris%C3%B6r-g%C3%B6r-frisyr-p%C3%A5-ung-kvinna-med-brunett-h%C3%A5r-i-salongen.jpg?s=2048x2048&w=is&k=20&c=L8KNG-zqa9aXcmCfv4E-Zq5BqqV4t-2uq9J2X3thWu8=" }
     ],
     
-    redBloodCellbeauty: [
-      { title: "Nettle", benefits: "Cleans lungs", imageUrl: "https://images.unsplash.com/photo-1509210459313-17feefdff5cd?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Nettle Seed", benefits: "Antiviral and Antibacterial properties", imageUrl: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
-      { title: "Black Walnut", benefits: "Removes parasites", imageUrl: "https://plus.unsplash.com/premium_photo-1675720902465-82781aaa96bb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-      { title: "Pumpkin Seeds", benefits: "Fibre and helps remove parasites", imageUrl: "https://plus.unsplash.com/premium_photo-1674347954785-7604a0220776?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+    jewelrybeauty: [
+      { title: "Neckless", benefits: "Classic design", imageUrl: "https://images.unsplash.com/photo-1650453943723-01b0fc230953?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Bracelet", benefits: "Playful design", imageUrl: "https://plus.unsplash.com/premium_photo-1682097691349-afa9e86a166c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Earrings", benefits: "Removes parasites", imageUrl: "https://media.istockphoto.com/id/1272125861/sv/foto/n%C3%A4rbild-av-kvinnligt-%C3%B6ra-med-%C3%B6rh%C3%A4ngen.jpg?s=2048x2048&w=is&k=20&c=bHtTo2phaB0FoX7urpu8DPEs7xXeUmBQnv87NWZxeas=" },
+    ],
+
+    advertisingbeauty: [
+      { title: "Bag", benefits: "Get with your logo", imageUrl: "https://media.istockphoto.com/id/1482180653/sv/foto/recyclable-craft-paper-bag-for-purchases-gifts-and-takeaway-food-mock-up-on-black-background.jpg?s=2048x2048&w=is&k=20&c=P6G3PlXktKv9Xftx5SvRlTGKJVjFVrYTpvOApjR-Wjc=" },
+      { title: "Shop window design", benefits: "Customice whit decal", imageUrl: "https://images.unsplash.com/photo-1605513524006-063ed6ed31e7?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { title: "Social media", benefits: "Webbdesign for your salong", imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
     ],
   
   };
