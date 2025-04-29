@@ -7,7 +7,7 @@
 
 body {
   background-color: #f8c5e9;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Viaoda Libre", serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +72,7 @@ body {
 
 .box h3 {
   padding: 5px;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* Highlight active box */
