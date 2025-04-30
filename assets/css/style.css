@@ -267,7 +267,7 @@ textarea {
 }
 /*Game nr 2 */
 #quiz-box {
-  background: #fff;
+  background: #e735d8;
   padding: 20px;
   max-width: 500px;
   margin: auto;
@@ -281,10 +281,11 @@ textarea {
 }
 
 .option {
+  font-size: 20px;
   display: block;
   margin: 10px 0;
   padding: 10px;
-  background: #eee;
+  background: #f591e4;
   border: none;
   width: 100%;
   border-radius: 5px;
@@ -292,7 +293,7 @@ textarea {
 }
 
 .option:hover {
-  background: #ddd;
+  background: #f569d6;
 }
 
 #result {
