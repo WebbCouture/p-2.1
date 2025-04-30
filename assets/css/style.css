@@ -89,6 +89,9 @@ body {
   display: block; /* Show image only in active box */
 }
 
+nav {
+ color: #641160;
+}
 
 .box:not(.active) img {
   display: none; /* Hide images in non-active boxes */
