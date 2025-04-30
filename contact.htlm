@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Hair salong tips</title>
+    <title>Hair-salong-tips</title>
     <!--Font style-->
     <!-- favicon --> 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
@@ -15,28 +15,10 @@
 </head>
 
 <body>
-    <header>
-    </header>
+    <header></header>
     <main>
         <div class="app-container">
             <div id="body-part-container">
-                <!--Meny-->
-                <body class="index-page">
-                    <!--Header-->
-                        <a href="index.html">
-                            <h1 id="logo">Recomendation site</h1>
-                        </a>
-                        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-                        <label for="nav-toggle" class="nav-toggle-label">
-                            <i class="fa-solid fa-bars"></i>
-                        </label>
-                        <nav>
-                            <ul id="menu">
-                                <li><a href="index.html" class="active">Home</a></li>
-                                <li><a href="info.html">Salong game</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
                 <h2 id="body-part-title">Best recomendations for you!</h2>
                 <div class="body-parts">
 
