@@ -46,6 +46,13 @@ a {
   transition: color .2s;   
 }
 
+label,
+input, 
+textarea {
+    display: block;
+    margin-top: 5px;
+}
+
 /* Body part container */
 #body-part-container {
   display: flex;

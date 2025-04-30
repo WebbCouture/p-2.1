@@ -32,25 +32,22 @@
                                 <a href="contact.html" class="active">CONTACT</a>
                         </nav>
                 <h2 id="body-part-title">Best recomendations for you!</h2>
-                <section id="signup">
-                    <section class="contact-section">
-                        
-                        <br>
-                        <h2>CONTACT US!</h2>
-                        <form id="contact-form" class="stacked-form">
-                            <!-- form fields -->
-                            <label for="name">Name:</label><br>
-                            <input type="text" id="name" name="name" required><br>
-                            <label for="email">Email:</label><br>
-                            <input type="email" id="email" name="email" required><br>
-                            <label for="message">Message:</label><br>
-                            <textarea id="message" name="message" rows="5" required></textarea><br>
-                            <button type="submit">Send Message</button>
-                        </form>
-                        <p id="confirmation-message" style="display: none; color: #ffffff; font-weight: bold; margin-top: 1rem;">
-                            Your message has been sent!
-                        </p>
-                    </section>
+                <link href="style.css" rel="stylesheet">
+
+<form>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="fName" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="emailField" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+</form>
+
+<script src="script.js"></script>
+<button type="submit">Send message</button>
     </main>
     <script type="module" src="assets/js/script.js"></script>
 </body>

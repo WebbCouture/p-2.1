@@ -48,3 +48,19 @@ function createbeautyCard(beauty) {
     `;
     return card;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const user = {
+        isLoggedIn: false,
+        firstName: 'Alex',
+        email: 'alex@example.com'
+    };
+    
+    if (user.isLoggedIn) {
+        form = document.querySelector("form");
+        form.fName.value = user.firstName;
+
+    }     
+});
+
+
