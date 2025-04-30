@@ -32,55 +32,25 @@
                                 <a href="contact.html" class="active">CONTACT</a>
                         </nav>
                 <h2 id="body-part-title">Best recomendations for you!</h2>
-                <div class="body-parts">
-
-                    <div class="box" id="hair">
-                        <img src="assets/body-part-img/hair-parts.jpg" alt="imgage of hair parts" >
-                        <h3>Hair Products</h3>
-                    </div>
-                    <div class="box" id="scissors">
-                        <img src="assets/body-part-img/scissors.jpg" alt="image of scissors">
-                        <h3>Scissors</h3>
-                    </div>
-                    <div class="box" id="makeup">
-                        <img src="assets/body-part-img/makeup.jpg" alt="image of makeup">
-                        <h3>Makeup</h3>
-                    </div>
-                    <div class="box" id="powertools">
-                        <img src="assets/body-part-img/tools.jpg" alt="image of a tools">
-                        <h3>Power tools</h3>
-                    </div>
-                    <div class="box" id="colors">
-                        <img src="assets/body-part-img/colors.jpg" alt="image of colors" >
-                        <h3>Colors and more</h3>
-                    </div>
-                    <div class="box" id="interior">
-                        <img src="assets/body-part-img/interior.jpg" alt="image of interior">
-                        <h3>Interior</h3>
-                    </div>
-                    <div class="box" id="clothes">
-                        <img src="assets/body-part-img/clothes.jpg" alt="image of clothes" >
-                        <h3>Clothes</h3>
-                    </div>
-                    <div class="box" id="jewelry">
-                        <img src="assets/body-part-img/jewelry.jpg" alt="image of jewelry">
-                        <h3>Jewelry</h3>
-                    </div>
-                    <div class="box" id="advertising">
-                        <img src="assets/body-part-img/merch.jpg" alt="image of merch" >
-                        <h3>Advertising</h3>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="conent-placeholder">
-                <h2 id="content-title"></h2> <!--Put in read mor text here-->
-                <div class="cards"></div>
-
-            </div>
-
-        </div>
+                <section id="signup">
+                    <section class="contact-section">
+                        
+                        <br>
+                        <h2>CONTACT US - Let's fix your Webpage!</h2>
+                        <form id="contact-form" class="stacked-form">
+                            <!-- form fields -->
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                        <p id="confirmation-message" style="display: none; color: #ffffff; font-weight: bold; margin-top: 1rem;">
+                            Your message has been sent!
+                        </p>
+                    </section>
     </main>
     <script type="module" src="assets/js/script.js"></script>
 </body>
