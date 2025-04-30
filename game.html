@@ -32,7 +32,31 @@
                                 <a href="contact.html">CONTACT</a>
                         </nav>
                 <h2 id="body-part-title">Best recomendations for you!</h2>
-                
+                <!--Game-->
+                <link rel="stylesheet" href="style.css">
+
+<div id="gameboard">
+    <div id="destination"></div>
+    <img src="https://codeinstitute.s3.eu-west-1.amazonaws.com/assets/jo-avatar.png" 
+        alt="Player icon" 
+        id="player"
+        style="top: 3px; left: 2.5px"> 
+        <!-- inline style added for starting values in move() function -->
+    <div id="buttons">
+        <div class="row">
+            <button data-direction="up">Up</button>
+        </div>
+        <div class="row">
+            <button data-direction="left">Left</button>
+            <button data-direction="right">Right</button>
+        </div>
+        <div class="row">
+            <button data-direction="down">Down</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
     </main>
     <script type="module" src="assets/js/script.js"></script>
 </body>
