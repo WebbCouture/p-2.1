@@ -63,11 +63,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }     
 });
 
-document.getElementById("myForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent actual form submission
-    alert("Form has been submitted!");
-  });
-
 // Game
 // KEYBOARD CONTROLS:
 document.addEventListener("keydown", moveByKeyboardInput);
@@ -199,5 +194,9 @@ function move(direction) {
     player.style.left = currentLeftPx + "px";
 }
 
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent actual form submission
+    alert("Form has been submitted!");
+  });
 
 
