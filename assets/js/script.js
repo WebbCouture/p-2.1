@@ -63,38 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }     
 });
 
-// Game
-// KEYBOARD CONTROLS:
-document.addEventListener("keydown", moveByKeyboardInput);
-
-function moveByKeyboardInput(e) {
-    const allowedKeys = [
-        "ArrowUp",
-        "ArrowDown",
-        "ArrowLeft",
-        "ArrowRight",
-    ];
-
-    if (allowedKeys.includes(e.key)) {
-        e.preventDefault();
-        switch (e.key) {
-            case "ArrowUp":
-                move("up");
-                break;
-            case "ArrowDown":
-                move("down");
-                break;
-            case "ArrowLeft":
-                move("left");
-                break;
-            case "ArrowRight":
-                move("right");
-                break;
-        }
-    }
-}
-
-// Game 2 
+// Game 
 const quizData = [
     {
         question: "How often should professional salon tools be sanitized?",
