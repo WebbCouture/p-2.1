@@ -24,6 +24,18 @@ body {
   width: 100%;
 }
 
+/* basic site-wide navigation styling */
+nav {
+  /* give it breathing room on the vertical axis only */
+  margin: 2rem 0;      /* = 2 rem top, 0 right, 2 rem bottom, 0 left */
+ /* add some space inside the element so the links aren’t flush */
+  padding: 0.75rem 1.25rem;  /* = 0.75 rem top/bottom, 1.25 rem left/right */
+/* optional extras—tweak or drop as needed */
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
 /* Body part container */
 #body-part-container {
   display: flex;
@@ -87,10 +99,6 @@ body {
 
 .box.active img {
   display: block; /* Show image only in active box */
-}
-
-nav {
- color: #641160;
 }
 
 .box:not(.active) img {
