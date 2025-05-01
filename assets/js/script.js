@@ -16,6 +16,20 @@ document.querySelectorAll('.box').forEach(box => {
     });
 });
 
+const correctPassword = "1234"; // Change to your preferred password
+
+function checkPassword() {
+  const userInput = prompt("Enter password:");
+  if (userInput === correctPassword) {
+    document.getElementById("protectedContent").style.display = "block";
+  } else {
+    alert("Incorrect password. Access denied.");
+    document.body.innerHTML = "<h1>Access Denied</h1>";
+  }
+}
+
+window.onload = checkPassword;
+
 // Function to get beauty based on the category selected
 function getbeautyByCategory(category) {
     const categoryData = beautyData[category + 'beauty']; // Access the correct category in the beautyData object
