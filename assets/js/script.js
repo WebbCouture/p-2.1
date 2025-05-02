@@ -125,20 +125,9 @@ const quizData = [
   
   loadQuestion();
 
-// BUTTON CLICKS
-const buttons = document.querySelectorAll("#buttons button");
-for (let button of buttons) {
-    button.addEventListener("click", moveByButtonClick);
-}
-
-function moveByButtonClick(e) {
-    let direction = e.target.getAttribute("data-direction");
-    move(direction);
-}
-
+  // FUNKAR INTE 
 document.getElementById("myForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent actual form submission
-    alert("Form has been submitted!");
-  });
-
+  event.preventDefault(); // Prevent actual form submission
+  alert("Form has been submitted!");
+});
 
