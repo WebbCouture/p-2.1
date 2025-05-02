@@ -43,10 +43,8 @@ nav {
   background: #ffffff;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  opacity: 1; /* Set opacity to 1 instead of animating */
 }
 
-/* Links styling */
 nav a {
   margin-inline: .5rem;
 }
@@ -54,7 +52,7 @@ nav a {
 a {
   color: #b81e9e;
   text-decoration: none;
-  transition: none; /* Remove transition on color */
+  transition: color .2s;
 }
 
 a:hover {
@@ -77,7 +75,6 @@ textarea {
   max-height: 90vh;
   max-width: 300px;
   min-height: 600px;
-  opacity: 1; /* Set opacity to 1 instead of animating */
 }
 
 /* Body parts list */
@@ -94,7 +91,6 @@ textarea {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
-  opacity: 1; /* Set opacity to 1 instead of animating */
 }
 
 /* Individual body part box */
@@ -106,22 +102,21 @@ textarea {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease;
   cursor: pointer;
   min-width: 0;
-  gap: 0px;
+  gap: 15px;
   overflow: hidden;
   background-color: #ffffff;
   width: 200px;
   margin: 0 auto;
-  opacity: 1; /* Set opacity to 1 instead of animating */
 }
 
-/* Remove image display animations */
 .box img {
   object-fit: contain;
   max-height: 100px;
   max-width: 100px;
-  display: block; /* Always show image */
+  display: none;
 }
 
 .box h3 {
@@ -137,9 +132,9 @@ textarea {
   z-index: 1;
   opacity: 1;
   transform: scale(1.1);
+  transition: all 0.3s ease;
 }
 
-/* No fade-in animation */
 .box.active img {
   display: block;
 }
@@ -174,7 +169,6 @@ textarea {
   gap: 15px;
   place-items: center;
   width: 100%;
-  opacity: 1; /* Set opacity to 1 instead of animating */
 }
 
 /* Beauty card styling */
@@ -185,13 +179,14 @@ textarea {
   border-radius: 10px;
   background-color: white;
   overflow: hidden;
+  transition: transform 0.3s ease;
   margin: 0 auto;
   width: 100%;
   max-width: 300px;
 }
 
 .beauty-card:hover {
-  transform: translateY(0); /* Remove slow movement effect */
+  transform: translateY(-5px);
 }
 
 .card-header {
@@ -244,7 +239,6 @@ textarea {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
   text-align: center;
-  opacity: 1; /* Set opacity to 1 instead of animating */
 }
 
 .question {
@@ -265,7 +259,7 @@ textarea {
 }
 
 .option:hover {
-  background: #f569d6; /* Immediate background change */
+  background: #f569d6;
 }
 
 #result {
@@ -307,4 +301,3 @@ textarea {
     max-height: 200px;
     max-width: 200px;
   }
-}
