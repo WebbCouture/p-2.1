@@ -126,7 +126,7 @@ textarea {
 
 /* Active box styling - make it wider */
 .box.active {
-  width: 300px; /* Increase width to make the active box wider */
+  width: 280px; /* Increase width to make the active box wider */
   border: 3px solid #641160;
   background-color: #e674cd;
   z-index: 1;
