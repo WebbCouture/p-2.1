@@ -13,6 +13,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
+  width: 90%;
+  max-width: 150rem;
 }
 
 .app-container {
@@ -20,8 +22,8 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
-  max-width: 1200px;
-  width: 100%;
+  width: 90%;
+  max-width: 150rem;
 }
 
 /* basic site-wide navigation styling */
