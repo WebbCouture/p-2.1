@@ -297,7 +297,8 @@ textarea {
     max-width: 350px;
   }
 
-  .box img {
-    max-height: 200px;
-    max-width: 200px;
+    .box img {
+      max-height: 200px;
+      max-width: 200px;
+    }
   }
