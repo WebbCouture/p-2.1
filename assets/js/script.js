@@ -16,20 +16,6 @@ document.querySelectorAll('.box').forEach(box => {
     });
 });
 
-const correctPassword = "1234"; // Change to your preferred password
-
-function checkPassword() {
-  const userInput = prompt("Enter password:");
-  if (userInput === correctPassword) {
-    document.getElementById("protectedContent").style.display = "block";
-  } else {
-    alert("Incorrect password. Access denied.");
-    document.body.innerHTML = "<h1>Access Denied</h1>";
-  }
-}
-
-window.onload = checkPassword;
-
 // Function to get beauty based on the category selected
 function getbeautyByCategory(category) {
     const categoryData = beautyData[category + 'beauty']; // Access the correct category in the beautyData object
@@ -148,33 +134,6 @@ for (let button of buttons) {
 function moveByButtonClick(e) {
     let direction = e.target.getAttribute("data-direction");
     move(direction);
-}
-
-// FUNCTION TO MOVE PLAYER - DO NOT CHANGE!
-function move(direction) {
-    let player = document.getElementById("player");
-    let currentTopPx = parseFloat(player.style.top);
-    let currentLeftPx = parseFloat(player.style.left);
-    
-    switch (direction) {
-        case "up":
-            currentTopPx -= 12.5;
-            break;
-        case "down":
-            currentTopPx += 12.5;
-            break;
-        case "left":
-            currentLeftPx -= 12.5;
-            break;
-        case "right":
-            currentLeftPx += 12.5;
-            break;
-        default:
-            alert("Not a valid input");
-    }
-    
-    player.style.top = currentTopPx.toFixed(1) + "px";
-    player.style.left = currentLeftPx + "px";
 }
 
 document.getElementById("myForm").addEventListener("submit", function(event) {
