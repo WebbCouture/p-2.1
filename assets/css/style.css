@@ -303,3 +303,46 @@ textarea {
       max-width: 200px;
     }
   }
+
+  /* Contact box */
+#myForm {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto; /* horizontally centers the form */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left; /* keep form text aligned left */
+  margin-top: 15px
+}
+
+/* Optional: style form elements */
+#myForm label,
+#myForm input,
+#myForm textarea,
+#myForm button {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+#myForm input,
+#myForm textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#myForm button {
+  background-color: #8b0074;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#myForm button:hover {
+  background-color: #641160;
+}
