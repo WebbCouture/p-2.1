@@ -94,35 +94,40 @@ textarea {
 }
 
 /* Individual body part box */
+/* Individual body part box */
+/* Individual body part box */
 .box {
-  flex: 0.5;
+  flex: 0 0 auto;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start; /* Align children to the left */
+  align-items: center;         /* Vertically align items to the center */
   transition: all 0.3s ease;
   cursor: pointer;
-  min-width: 0;
-  gap: 0px;
-  overflow: hidden;
-  background-color: #ffffff;
   width: 200px;
   margin: 0 auto;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
+/* Make sure the image is aligned to the left */
 .box img {
   object-fit: contain;
   max-height: 100px;
   max-width: 100px;
-  display: none;
+  display: block; /* Make sure the image is block level, not inline */
+  margin-right: 0px; /* Space between the image and text */
 }
 
+/* Text styling */
 .box h3 {
-  padding: 5px;
   font-size: 1rem;
+  margin: 0;  /* No margin to align text properly */
+  padding: 10px;
+  text-align: left;  /* Ensure the text is aligned to the left */
 }
+
 
 /* Active box styling - make it wider */
 .box.active {
@@ -144,10 +149,8 @@ textarea {
 }
 
 .body-parts .box:not(.active) {
-  flex: 0.3;
-  opacity: 0.5;
-  transform: scale(0.8);
-  min-width: 0;
+  transform: scale(1); /* Remove scaling effect */
+  opacity: 1; /* Keep the boxes visible even when not active */
 }
 
 /* Content area */
@@ -163,11 +166,13 @@ textarea {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  place-items: center;
+  display: flex;
+  flex-direction: column;  /* This will stack the cards vertically */
+  align-items: flex-end;   /* This will align the cards to the right side */
+  gap: 15px;               /* Space between the cards */
   width: 100%;
+  justify-content: flex-start; /* Align cards to the top of the container */
+  padding-right: 20px;     /* Add some padding to the right side */
 }
 
 /* Beauty card styling */
