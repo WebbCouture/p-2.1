@@ -26,11 +26,6 @@
       { title: "Lightening", benefits: "Bleach", imageUrl: "https://media.istockphoto.com/id/1307578256/sv/foto/process-f%C3%B6r-applicering-av-blekpulver-p%C3%A5-klienter-h%C3%A5r-och-omslag-i-folien-shatush-teknik.jpg?s=2048x2048&w=is&k=20&c=jp7wz_r1uIgMjp8NeTqTBWgrTjmUUrbI1LTwtmC-FFY=" },
       { title: "Crasy colors", benefits: "Dear to be colorful", imageUrl: "https://images.unsplash.com/photo-1546561925-a427a021303a?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
-    interiorbeauty: [
-      { title: "Custum interior", benefits: "Chair, Mirror etc.", imageUrl: "https://media.istockphoto.com/id/1454859919/sv/foto/white-luxury-modern-salon-interior-3d-rendering.jpg?s=2048x2048&w=is&k=20&c=BpNst68LUUm9MPEKZm36tR3eZmUhLBn9kZLnsgj_ibc=" },
-      { title: "Wash chair", benefits: "Comfortable and classic", imageUrl: "https://media.istockphoto.com/id/2164364866/sv/foto/woman-shower-and-shampoo-in-beauty-salon-with-hands-basin-or-process-for-hygiene-cleaning-and.jpg?s=2048x2048&w=is&k=20&c=DkjwGAYyHGQKXCHgUK0pmrMUXYfbB3QekqppQfX5Rv4=" },
-      { title: "Payment station", benefits: "Clean and functionable", imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
-    ],
     clothesbeauty: [
       { title: "Apron", benefits: "Protect your clothes", imageUrl: "https://media.istockphoto.com/id/1066846954/sv/foto/h%C3%A5rtv%C3%A4tt.jpg?s=2048x2048&w=is&k=20&c=gUp3ZvzyacH4m2u_IO3dyQ5n-JZFb-CTAMrJDsLvWaM=" },
       { title: "Robe", benefits: "Protect your custumer", imageUrl: "https://media.istockphoto.com/id/931164704/sv/foto/fris%C3%B6r-och-kunden-diskutera-besluta-att-v%C3%A4lja-hur-man-klippa-h%C3%A5ret-i-fris%C3%B6rsalong.jpg?s=2048x2048&w=is&k=20&c=kyr3JAMBOeNj6q2yyLLsYEMsBcEv3r6573tChdTouXc=" },
