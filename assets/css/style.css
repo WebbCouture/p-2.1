@@ -345,3 +345,15 @@ textarea {
 #myForm button:hover {
   background-color: #641160;
 }
+
+#restart-btn {
+  background-color: #ffffff;
+  color: #8b0074;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+}
