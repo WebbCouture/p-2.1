@@ -10,7 +10,7 @@ const quizData = [
     answer: "Relaxer treatment"
   },
   {
-    question: "What is the purpose of using a heat protectant spray",
+    question: "What is the purpose of using a heat protecting spray",
     options: ["To add shine", "To help color last longer", "To prevent heat damage", "To protect from UV rays"],
     answer: "To prevent heat damage"
   }

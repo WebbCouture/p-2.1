@@ -14,7 +14,7 @@
     makeupbeauty: [
       { title: "Makeup", benefits: "Natural mineral makeup", imageUrl: "https://media.istockphoto.com/id/1658893205/sv/foto/make-up-products-at-pink-background-top-view.jpg?s=2048x2048&w=is&k=20&c=R4A4iuQefwdoDZYk0Zz97s17vuV-B48a4ngphT0cL0E=" },
       { title: "Bruches", benefits: "Made with care", imageUrl: "https://media.istockphoto.com/id/1358832083/sv/foto/paintbrushes-on-a-pink-background-glamorous-makeup-artist-table-brushes-for-applying-powder.jpg?s=2048x2048&w=is&k=20&c=SBd_OTJx4hDwYoLgTkCre8vMM1EfuLW4BJrhn_Dg5-s=" },
-      { title: "Skincare", benefits: "For sensitive scin", imageUrl: "https://media.istockphoto.com/id/1688862517/sv/foto/pink-skin-care-routine-products.jpg?s=2048x2048&w=is&k=20&c=4HSresG5r5I9eHPqqcaFZgJn0Gq1hLVVkXrirVHYiLQ=" }
+      { title: "Skincare", benefits: "For sensitive skin", imageUrl: "https://media.istockphoto.com/id/1688862517/sv/foto/pink-skin-care-routine-products.jpg?s=2048x2048&w=is&k=20&c=4HSresG5r5I9eHPqqcaFZgJn0Gq1hLVVkXrirVHYiLQ=" }
     ],
     powertoolsbeauty: [
       { title: "Hairdryer", benefits: "Powerful and quiet", imageUrl: "https://images.unsplash.com/photo-1715220169023-c1d5c8d2be37?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
@@ -24,12 +24,12 @@
     colorsbeauty: [
       { title: "Colors", benefits: "Natural colors", imageUrl: "https://media.istockphoto.com/id/175725740/sv/foto/highlight-hair-texture-background.jpg?s=2048x2048&w=is&k=20&c=XEB74rhwEYe7kK2S2tKedKeQJnlzZvFDLym7VYil9jg=" },
       { title: "Lightening", benefits: "Bleach", imageUrl: "https://media.istockphoto.com/id/1307578256/sv/foto/process-f%C3%B6r-applicering-av-blekpulver-p%C3%A5-klienter-h%C3%A5r-och-omslag-i-folien-shatush-teknik.jpg?s=2048x2048&w=is&k=20&c=jp7wz_r1uIgMjp8NeTqTBWgrTjmUUrbI1LTwtmC-FFY=" },
-      { title: "Crasy colors", benefits: "Dear to be colorful", imageUrl: "https://images.unsplash.com/photo-1546561925-a427a021303a?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+      { title: "Crasy colors", benefits: "Dare to be colorful", imageUrl: "https://images.unsplash.com/photo-1546561925-a427a021303a?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ],
     clothesbeauty: [
       { title: "Apron", benefits: "Protect your clothes", imageUrl: "https://media.istockphoto.com/id/1066846954/sv/foto/h%C3%A5rtv%C3%A4tt.jpg?s=2048x2048&w=is&k=20&c=gUp3ZvzyacH4m2u_IO3dyQ5n-JZFb-CTAMrJDsLvWaM=" },
-      { title: "Robe", benefits: "Protect your custumer", imageUrl: "https://media.istockphoto.com/id/931164704/sv/foto/fris%C3%B6r-och-kunden-diskutera-besluta-att-v%C3%A4lja-hur-man-klippa-h%C3%A5ret-i-fris%C3%B6rsalong.jpg?s=2048x2048&w=is&k=20&c=kyr3JAMBOeNj6q2yyLLsYEMsBcEv3r6573tChdTouXc=" },
-      { title: "Basci clothes", benefits: "For you to work in", imageUrl: "https://media.istockphoto.com/id/1215895445/sv/foto/kvinnlig-fris%C3%B6r-g%C3%B6r-frisyr-p%C3%A5-ung-kvinna-med-brunett-h%C3%A5r-i-salongen.jpg?s=2048x2048&w=is&k=20&c=L8KNG-zqa9aXcmCfv4E-Zq5BqqV4t-2uq9J2X3thWu8=" }
+      { title: "Robe", benefits: "Protect your custoumer", imageUrl: "https://media.istockphoto.com/id/931164704/sv/foto/fris%C3%B6r-och-kunden-diskutera-besluta-att-v%C3%A4lja-hur-man-klippa-h%C3%A5ret-i-fris%C3%B6rsalong.jpg?s=2048x2048&w=is&k=20&c=kyr3JAMBOeNj6q2yyLLsYEMsBcEv3r6573tChdTouXc=" },
+      { title: "Basic clothes", benefits: "For you to work in", imageUrl: "https://media.istockphoto.com/id/1215895445/sv/foto/kvinnlig-fris%C3%B6r-g%C3%B6r-frisyr-p%C3%A5-ung-kvinna-med-brunett-h%C3%A5r-i-salongen.jpg?s=2048x2048&w=is&k=20&c=L8KNG-zqa9aXcmCfv4E-Zq5BqqV4t-2uq9J2X3thWu8=" }
     ],
     
     jewelrybeauty: [
