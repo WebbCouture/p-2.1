@@ -255,12 +255,12 @@ label, input, textarea {
 }
 
 .question {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 20px;
 }
 
 .option {
-  font-size: 20px;
+  font-size: 1.25px;
   display: block;
   margin: 10px 0;
   padding: 10px;
@@ -277,13 +277,13 @@ label, input, textarea {
 
 #result {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 1px;
   font-weight: bold;
 }
 
 .option {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 5px;
   cursor: pointer;
 }
