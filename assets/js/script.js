@@ -1,11 +1,10 @@
-// script.js
 import { beautyData } from './beauty.js'; // Importing the beauty data
 
 // Adding event listeners to body part selection
 document.querySelectorAll('.box').forEach(box => {
     box.addEventListener('click', () => {
         const category = box.id;  // Get the category based on clicked body part
-        const beauty = getbeautyByCategory(category);
+        const beauty = getbeautyByCategory(category); // Retrieve beauty tips or products for the selected category
         displaybeauty(beauty); // Display the beauty related to the body part
 
         const boxes = document.querySelectorAll('.box');
@@ -16,23 +15,34 @@ document.querySelectorAll('.box').forEach(box => {
     });
 });
 
-// Function to get beauty based on the category selected
+/**
+ * Retrieves beauty data from the beautyData object based on the selected category.
+ * @param {string} category - The selected body part category (e.g., "hair", "skin").
+ * @returns {Array} - Array of beauty items related to the category.
+ */
 function getbeautyByCategory(category) {
     const categoryData = beautyData[category + 'beauty']; // Access the correct category in the beautyData object
     return categoryData ? categoryData : []; // Return the beauty data or an empty array if not found
 }
 
-// Function to display the beauty in the UI
+/**
+ * Displays the beauty data in the user interface by creating and appending beauty cards.
+ * @param {Array} beauty - Array of beauty items to be displayed.
+ */
 function displaybeauty(beauty) {
     const contentContainer = document.querySelector('.cards');
     contentContainer.innerHTML = ''; // Clear existing content
     beauty.forEach(beauty => {
-        const beautyCard = createbeautyCard(beauty);
+        const beautyCard = createbeautyCard(beauty); // Create a card element for each beauty item
         contentContainer.appendChild(beautyCard); // Append each beauty card to the container
     });
 }
 
-// Function to create a beauty card element
+/**
+ * Creates a DOM element representing a single beauty card.
+ * @param {Object} beauty - An object containing imageUrl, title, and benefits.
+ * @returns {HTMLElement} - A div element representing the beauty card.
+ */
 function createbeautyCard(beauty) {
     const card = document.createElement('div');
     card.classList.add('beauty-card');

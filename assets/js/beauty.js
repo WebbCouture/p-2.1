@@ -1,5 +1,14 @@
 
   // beauty.js
+  
+/**
+ * An object containing categorized beauty-related data.
+ * Each key represents a category of beauty products or tools (e.g., hair, scissors, makeup).
+ * Each value is an array of items, with each item containing:
+ * - title: The name of the product/item.
+ * - benefits: A brief description or benefit of the item.
+ * - imageUrl: A link to an image representing the item.
+ */
   export const beautyData = {
     hairbeauty: [
       { title: "Products", benefits: "Hair treatment", imageUrl: "https://media.istockphoto.com/id/1074797524/sv/foto/bild-av-showcase-med-flaskor-med-schampo-och-balsam.jpg?s=2048x2048&w=is&k=20&c=hOo93bzAhSO4gQ6YtTp0N8B3c_B_vGpowOCf8il8P1o=" },
