@@ -13,15 +13,16 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100vh;
   text-align: center;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
 .hidden {
-  display: none !important
+  display: none !important;
 }
 
 p {
@@ -40,18 +41,18 @@ main {
   margin-right: 0px;
 }
 
-/* FIX: Horizontal layout, even on mobile */
 .app-container {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 20px;
   flex-wrap: wrap;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 1200px;
 }
 
 nav {
@@ -321,7 +322,6 @@ label, input, textarea {
   }
 }
 
-/* ✅ Mobile Layout: Shrink box and cards */
 @media (max-width: 768px) {
   #body-part-container {
     max-width: 40%;
@@ -347,7 +347,7 @@ label, input, textarea {
 
   .cards {
     max-width: 55%;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust cards grid */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 
   .beauty-card {
@@ -373,7 +373,6 @@ label, input, textarea {
   }
 }
 
-/* Extra Small screens (320px or less) */
 @media (max-width: 320px) {
   #body-part-container {
     max-width: 100%;
@@ -400,7 +399,7 @@ label, input, textarea {
 
   .cards {
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Smaller grid on ultra-small screens */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
   .beauty-card {
@@ -478,4 +477,3 @@ label, input, textarea {
   width: 150px;
   height: 40px;
 }
-
