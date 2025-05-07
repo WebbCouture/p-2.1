@@ -50,16 +50,34 @@ function loadQuestion() {
 // Function to check the user's answer
 function checkAnswer(selected) {
   const correct = quizData[currentQuestion].answer;
+  const allOptions = document.querySelectorAll(".option");
+
+  // Disable all buttons and show feedback
+  allOptions.forEach(btn => {
+    btn.disabled = true;
+    if (btn.textContent === correct) {
+      btn.style.backgroundColor = "green";
+      btn.style.color = "white";
+    } else if (btn.textContent === selected) {
+      btn.style.backgroundColor = "red";
+      btn.style.color = "white";
+    }
+  });
+
   if (selected === correct) {
     score++;
   }
 
   currentQuestion++;
-  if (currentQuestion < quizData.length) {
-    loadQuestion();
-  } else {
-    showResult();
-  }
+
+  // Wait 1.5 seconds before continuing
+  setTimeout(() => {
+    if (currentQuestion < quizData.length) {
+      loadQuestion();
+    } else {
+      showResult();
+    }
+  }, 1500);
 }
 
 // Function to display the result after quiz completion
@@ -84,4 +102,3 @@ restartBtn.onclick = () => {
 
 // Initialize the quiz by loading the first question
 loadQuestion();
-

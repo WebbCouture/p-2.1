@@ -280,6 +280,18 @@ label, input, textarea {
   font-weight: bold;
 }
 
+.option {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.option:disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+
 /* Media queries for responsiveness */
 @media (min-width: 400px) {
   .box img {
