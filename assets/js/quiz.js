@@ -84,3 +84,4 @@ restartBtn.onclick = () => {
 
 // Initialize the quiz by loading the first question
 loadQuestion();
+
