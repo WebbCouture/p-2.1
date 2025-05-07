@@ -16,6 +16,12 @@ body {
   align-items: center;
   min-height: 100vh;
   text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.hidden {
+  display: none !important
 }
 
 p {
@@ -30,6 +36,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* FIX: Horizontal layout, even on mobile */
@@ -42,6 +50,8 @@ main {
   padding: 0px;
   gap: 20px;
   flex-wrap: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 nav {
