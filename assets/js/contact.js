@@ -1,15 +1,7 @@
-// Contact form submission handler 
 document.getElementById("myForm").addEventListener("submit", function(event) {
-  /**
-   * Handles the form submission event.
-   * Prevents the default form submission and shows a confirmation alert.
-   * @param {Event} event - The submit event object.
-   */
-  event.preventDefault(); // Prevent actual form submission (e.g., page reload)
-  alert("Form has been submitted!"); // Notify user that the form was submitted
+  event.preventDefault(); // Stop form from submitting normally
 
-  // Set a delayed alert to confirm form submission again after 1 second
-  setTimeout(function() {
-    alert("Form has been submitted!");
-  }, 1000); // Delay in milliseconds (1000ms = 1 second)
+  // Show a single success message
+  const messageElement = document.getElementById("successMessage");
+  messageElement.textContent = "Thank you for reaching out! We will get back to you as soon as possible!";
 });
