@@ -166,7 +166,8 @@ label, input, textarea {
 
 /* Cards section (right side) */
 .content-placeholder {
-  margin: 0 10px;
+  margin: 0 0px;
+  width: 120px;
 }
 
 #content-title {
@@ -260,7 +261,7 @@ label, input, textarea {
 }
 
 .option {
-  font-size: 1.25px;
+  font-size: 1.25rem;
   display: block;
   margin: 10px 0;
   padding: 10px;
