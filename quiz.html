@@ -14,35 +14,42 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest">    
 </head>
 
-<body>
+<!-- ✅ Fixed: Use only one body tag and applied the class here -->
+<body class="index-page">
+
     <header>
     </header>
+
     <main>
         <div class="app-container">
             <div id="body-part-container">
                 <!--Meny-->
-                <body class="index-page">
-                    <!--Header-->
-                        <label for="nav-toggle" class="nav-toggle-label">
-                            <i class="fa-solid fa-bars"></i>
-                        </label>
-                        <nav>
-                                <a href="index.html">HOME</a>
-                                <a href="quiz.html" class="active">QUIZ</a>
-                                <a href="contact.html">CONTACT</a>
-                        </nav>
-<!--Game-->
-<div id="question-number"></div>
-<div id="quiz-box">
-    <div class="question" id="question">Loading...</div>
-    <div id="options"></div>
-    <div id="result"></div>
-  </div>
-  <button id="restart-btn" style="display:none;">Restart Quiz</button>
-<!---End game-->
-<script src="script.js"></script>
-    </main>
-    <script type="module" src="assets/js/quiz.js"></script>
-</body>
+                <!-- ✅ Removed extra <body> tag -->
+                <!--Header-->
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <nav>
+                    <a href="index.html">HOME</a>
+                    <a href="quiz.html" class="active">QUIZ</a>
+                    <a href="contact.html">CONTACT</a>
+                </nav>
 
+                <!--Game-->
+                <div id="question-number"></div>
+                <div id="quiz-box">
+                    <div class="question" id="question">Loading...</div>
+                    <div id="options"></div>
+                    <div id="result"></div> <!-- ✅ Make sure this element exists and is not inside broken markup -->
+                </div>
+                <button id="restart-btn" style="display:none;">Restart Quiz</button>
+                <!---End game-->
+            </div>
+        </div>
+    </main>
+
+    <!-- ✅ Removed extra script.js (use only the relevant one) -->
+    <script type="module" src="assets/js/quiz.js"></script>
+
+</body>
 </html>

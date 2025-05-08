@@ -1,5 +1,4 @@
-// Array of quiz questions, options, and correct answers
-const quizData = [ 
+const quizData = [
   {
     question: "How often should professional salon tools be sanitized?",
     options: ["Only if dirty", " Once a day", "After every client", "Once a week"],
@@ -17,51 +16,43 @@ const quizData = [
   }
 ];
 
-// Initialize the current question index and user score
 let currentQuestion = 0;
 let score = 0;
 
-// Get references to DOM elements
+// Get references to the elements
 const questionNumberEl = document.getElementById("question-number");
 const restartBtn = document.getElementById("restart-btn");
 const questionEl = document.getElementById("question");
 const optionsEl = document.getElementById("options");
 const resultEl = document.getElementById("result");
 
-/**
- * Loads the current quiz question into the UI.
- * Displays question text, number, and answer options as clickable buttons.
- */
+// Function to load the current question
 function loadQuestion() {
   const current = quizData[currentQuestion];
 
-  // Show current question number
+  // Show question number
   questionNumberEl.textContent = `Question ${currentQuestion + 1} of ${quizData.length}`;
 
-  // Display the question text
+  // Set question text
   questionEl.textContent = current.question;
-  optionsEl.innerHTML = ""; // Clear previous options
+  optionsEl.innerHTML = "";
 
-  // Create and display buttons for each answer option
+  // Create buttons for each option
   current.options.forEach(option => {
     const btn = document.createElement("button");
     btn.classList.add("option");
     btn.textContent = option;
-    btn.onclick = () => checkAnswer(option); // Assign click handler
+    btn.onclick = () => checkAnswer(option);
     optionsEl.appendChild(btn);
   });
 }
 
-/**
- * Checks the user's selected answer and provides visual feedback.
- * Updates the score if the answer is correct and proceeds to the next question.
- * @param {string} selected - The answer option selected by the user.
- */
+// Function to check the user's answer
 function checkAnswer(selected) {
   const correct = quizData[currentQuestion].answer;
   const allOptions = document.querySelectorAll(".option");
 
-  // Disable all answer buttons and apply correct/incorrect styling
+  // Disable all buttons and show feedback
   allOptions.forEach(btn => {
     btn.disabled = true;
     if (btn.textContent === correct) {
@@ -73,45 +64,41 @@ function checkAnswer(selected) {
     }
   });
 
-  // Increment score if the answer is correct
   if (selected === correct) {
     score++;
   }
 
-  // Move to the next question after a short delay
   currentQuestion++;
+
+  // Wait 1.5 seconds before continuing
   setTimeout(() => {
     if (currentQuestion < quizData.length) {
       loadQuestion();
     } else {
-      showResult(); // Show final result when quiz ends
+      showResult();
     }
   }, 1500);
 }
 
-/**
- * Displays the user's final quiz score and reveals the restart button.
- */
+// Function to display the result after quiz completion
 function showResult() {
-  questionNumberEl.textContent = ""; // Clear question number
+  questionNumberEl.textContent = ""; // Hide question number when finished
   questionEl.textContent = "Quiz Completed!";
-  optionsEl.innerHTML = ""; // Clear options
+  optionsEl.innerHTML = "";
   resultEl.textContent = `Your score: ${score} out of ${quizData.length}`;
 
-  // Show restart button to allow the user to retake the quiz
+  // Show restart button after quiz completion
   restartBtn.style.display = "inline-block";
 }
 
-/**
- * Resets the quiz state and restarts from the first question.
- */
+// Restart quiz logic
 restartBtn.onclick = () => {
   currentQuestion = 0;
   score = 0;
-  resultEl.textContent = ""; // Clear previous score
-  restartBtn.style.display = "none"; // Hide restart button
-  loadQuestion(); // Start the quiz again
+  resultEl.textContent = "";
+  restartBtn.style.display = "none"; // Hide restart button again
+  loadQuestion();
 };
 
-// Start the quiz when the script is loaded
+// Initialize the quiz by loading the first question
 loadQuestion();

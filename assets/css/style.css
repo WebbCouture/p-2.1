@@ -5,7 +5,8 @@
 }
 
 header {
-  margin-top: 5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 body {
@@ -278,8 +279,9 @@ label, input, textarea {
 
 #result {
   margin-top: 20px;
-  font-size: 1px;
+  font-size: 1.25rem; /* or 16px+ */
   font-weight: bold;
+  color: #000000; /* Optional: make sure it's visible against your background */
 }
 
 .option {
