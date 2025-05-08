@@ -1,16 +1,16 @@
 const quizData = [
   {
-    question: "How often should professional salon tools be sanitized?",
+    question: "Do you know how often professional salon tools should be sanitized?",
     options: ["Only if dirty", " Once a day", "After every client", "Once a week"],
     answer: "After every client"
   },
   {
-    question: "Which of the following is a chemical process used to permanently straighten curly hair?",
+    question: "Which chemical process is used to permanently straighten curly hair types?",
     options: ["Relaxer treatment", "Balayage", " Hair gloss", "Ombre"],
     answer: "Relaxer treatment"
   },
   {
-    question: "What is the purpose of using a heat protecting spray",
+    question: "What is the main purpose of using a heat protectant spray on hair before styling tools?",
     options: ["To add shine", "To help color last longer", "To prevent heat damage", "To protect from UV rays"],
     answer: "To prevent heat damage"
   }
