@@ -59,7 +59,8 @@ main {
 
 nav {
   margin: 2rem 0;
-  width: 300px;
+  margin-left: 0rem;
+  width: 260px;
   padding: 0.75rem 1.25rem;
   background: #ffffff;
   border-radius: 0.5rem;
@@ -383,6 +384,16 @@ label, input, textarea {
 @media (max-width: 320px) {
   #beauty-container {
     min-width: 120px;
+  }
+
+  nav {
+    margin: 2rem 0;
+    margin-left: 0rem;
+    width: 200px;
+    padding: 0.75rem 1.25rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   }
 
   .box {
