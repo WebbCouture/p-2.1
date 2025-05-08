@@ -30,7 +30,12 @@ function getbeautyByCategory(category) {
  * @param {Array} beauty - Array of beauty items to be displayed.
  */
 function displaybeauty(beauty) {
+    const contentPlaceholder = document.querySelector('.content-placeholder');
     const contentContainer = document.querySelector('.cards');
+
+    // Remove 'hidden' class to show the placeholder
+    contentPlaceholder.classList.remove('hidden');
+
     contentContainer.innerHTML = ''; // Clear existing content
     beauty.forEach(beauty => {
         const beautyCard = createbeautyCard(beauty); // Create a card element for each beauty item
