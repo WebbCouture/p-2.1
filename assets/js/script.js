@@ -1,11 +1,11 @@
 import { beautyData } from './beauty.js'; // Importing the beauty data
 
-// Adding event listeners to body part selection
+// Adding event listeners to beauty selection
 document.querySelectorAll('.box').forEach(box => {
     box.addEventListener('click', () => {
-        const category = box.id;  // Get the category based on clicked body part
+        const category = box.id;  // Get the category based on clicked beauty box id
         const beauty = getbeautyByCategory(category); // Retrieve beauty tips or products for the selected category
-        displaybeauty(beauty); // Display the beauty related to the body part
+        displaybeauty(beauty); // Display the beauty related to the beauty category
 
         const boxes = document.querySelectorAll('.box');
         // Remove active class from all boxes
@@ -17,7 +17,7 @@ document.querySelectorAll('.box').forEach(box => {
 
 /**
  * Retrieves beauty data from the beautyData object based on the selected category.
- * @param {string} category - The selected body part category (e.g., "hair", "skin").
+ * @param {string} category - The selected beauty category (e.g., "hair", "skin").
  * @returns {Array} - Array of beauty items related to the category.
  */
 function getbeautyByCategory(category) {

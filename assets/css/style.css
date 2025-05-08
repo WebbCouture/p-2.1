@@ -95,7 +95,7 @@ label, input, textarea {
   min-height: 600px;
 }
 
-/* List of body part boxes */
+/* List of beauty boxes */
 .beautys {
   display: flex;
   flex-direction: column;
