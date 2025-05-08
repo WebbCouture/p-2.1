@@ -379,7 +379,6 @@ label, input, textarea {
 
 @media (max-width: 320px) {
   #body-part-container {
-    max-width: 100%;
     min-width: 120px;
   }
 
