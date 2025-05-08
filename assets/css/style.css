@@ -432,7 +432,7 @@ label, input, textarea {
 #myForm {
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  width: 300px;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
