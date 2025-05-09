@@ -1,64 +1,63 @@
-import { beautyData } from './beauty.js'; // Importing the beauty data
+// jshint esversion: 6
+import { beautyData } from './beauty.js';
 
-// Adding event listeners to beauty selection
-document.querySelectorAll('.box').forEach(box => {
-    box.addEventListener('click', () => {
-        const category = box.id;  // Get the category based on clicked beauty box id
-        const beauty = getbeautyByCategory(category); // Retrieve beauty tips or products for the selected category
-        displaybeauty(beauty); // Display the beauty related to the beauty category
+// Add event listeners to each beauty box
+document.querySelectorAll('.box').forEach(function (box) {
+    box.addEventListener('click', function () {
+        const category = box.id;
+        const beautyItems = getBeautyByCategory(category);
+        displayBeauty(beautyItems);
 
-        const boxes = document.querySelectorAll('.box');
-        // Remove active class from all boxes
-        boxes.forEach(b => b.classList.remove("active"));
-        // Add active class to the clicked box
+        document.querySelectorAll('.box').forEach(function (b) {
+            b.classList.remove("active");
+        });
         box.classList.add("active");
     });
 });
 
 /**
- * Retrieves beauty data from the beautyData object based on the selected category.
- * @param {string} category - The selected beauty category (e.g., "hair", "skin").
- * @returns {Array} - Array of beauty items related to the category.
+ * Retrieves beauty data for a given category.
+ * @param {string} category - The selected beauty category.
+ * @returns {Array} - An array of beauty items, or an empty array if not found.
  */
-function getbeautyByCategory(category) {
-    const categoryData = beautyData[category + 'beauty']; // Access the correct category in the beautyData object
-    return categoryData ? categoryData : []; // Return the beauty data or an empty array if not found
+function getBeautyByCategory(category) {
+    const key = category + 'beauty';
+    return Array.isArray(beautyData[key]) ? beautyData[key] : [];
 }
 
 /**
- * Displays the beauty data in the user interface by creating and appending beauty cards.
- * @param {Array} beauty - Array of beauty items to be displayed.
+ * Displays the beauty data by generating beauty cards.
+ * @param {Array} items - Array of beauty items to display.
  */
-function displaybeauty(beauty) {
+function displayBeauty(items) {
     const contentPlaceholder = document.querySelector('.content-placeholder');
     const contentContainer = document.querySelector('.cards');
 
-    // Remove 'hidden' class to show the placeholder
     contentPlaceholder.classList.remove('hidden');
+    contentContainer.innerHTML = '';
 
-    contentContainer.innerHTML = ''; // Clear existing content
-    beauty.forEach(beauty => {
-        const beautyCard = createbeautyCard(beauty); // Create a card element for each beauty item
-        contentContainer.appendChild(beautyCard); // Append each beauty card to the container
+    items.forEach(function (item) {
+        const card = createBeautyCard(item);
+        contentContainer.appendChild(card);
     });
 }
 
 /**
- * Creates a DOM element representing a single beauty card.
- * @param {Object} beauty - An object containing imageUrl, title, and benefits.
- * @returns {HTMLElement} - A div element representing the beauty card.
+ * Creates a DOM element for a single beauty card.
+ * @param {Object} item - Object containing imageUrl, title, and benefits.
+ * @returns {HTMLElement} - A fully constructed beauty card element.
  */
-function createbeautyCard(beauty) {
+function createBeautyCard(item) {
     const card = document.createElement('div');
     card.classList.add('beauty-card');
     card.innerHTML = `
         <div class="card-header">
-            <img src="${beauty.imageUrl}" alt="${beauty.title}">
+            <img src="${item.imageUrl}" alt="${item.title}">
         </div>
         <div class="card-content">
-            <h3 class="beauty-title">${beauty.title}</h3>
-            <p class="beauty-benefits">${beauty.benefits}</p>
-            <a class="beauty-link" href="https://www.capitalhairandbeauty.co.uk/?srsltid=AfmBOopIOnZpjH2pwCfqTfustzOEMcT0ofkMxCkcZ0K4BjvyBknE6tS7" target="_blank">Visit site</a>
+            <h3 class="beauty-title">${item.title}</h3>
+            <p class="beauty-benefits">${item.benefits}</p>
+            <a class="beauty-link" href="https://www.capitalhairandbeauty.co.uk" target="_blank" rel="noopener noreferrer">Visit site</a>
         </div>
     `;
     return card;
