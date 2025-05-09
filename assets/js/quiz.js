@@ -1,12 +1,12 @@
 const quizData = [
   {
     question: "Do you know how often professional salon tools should be sanitized?",
-    options: ["Only if dirty", " Once a day", "After every client", "Once a week"],
+    options: ["Only if dirty", "Once a day", "After every client", "Once a week"],
     answer: "After every client"
   },
   {
     question: "Which chemical process is used to permanently straighten curly hair types?",
-    options: ["Relaxer treatment", "Balayage", " Hair gloss", "Ombre"],
+    options: ["Relaxer treatment", "Balayage", "Hair gloss", "Ombre"],
     answer: "Relaxer treatment"
   },
   {
@@ -35,14 +35,14 @@ function loadQuestion() {
 
   // Set question text
   questionEl.textContent = current.question;
-  optionsEl.innerHTML = "";
+  optionsEl.innerHTML = ""; // Clear previous options
 
   // Create buttons for each option
   current.options.forEach(option => {
     const btn = document.createElement("button");
     btn.classList.add("option");
     btn.textContent = option;
-    btn.onclick = () => checkAnswer(option);
+    btn.onclick = () => checkAnswer(option); // Handle button click
     optionsEl.appendChild(btn);
   });
 }
@@ -65,10 +65,10 @@ function checkAnswer(selected) {
   });
 
   if (selected === correct) {
-    score++;
+    score++; // Increase score for correct answer
   }
 
-  currentQuestion++;
+  currentQuestion++; // Move to next question
 
   // Wait 1.5 seconds before continuing
   setTimeout(() => {
@@ -84,7 +84,7 @@ function checkAnswer(selected) {
 function showResult() {
   questionNumberEl.textContent = ""; // Hide question number when finished
   questionEl.textContent = "Quiz Completed!";
-  optionsEl.innerHTML = "";
+  optionsEl.innerHTML = ""; // Clear options
   resultEl.textContent = `Your score: ${score} out of ${quizData.length}`;
 
   // Show restart button after quiz completion
