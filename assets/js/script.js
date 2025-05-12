@@ -1,7 +1,7 @@
-// jshint esversion: 6
+/**  Import the beauty data from the JSON file */
 import { beautyData } from './beauty.js';
 
-// Add event listeners to each beauty box
+/** Add event listeners to each beauty box */
 document.querySelectorAll('.box').forEach(function (box) {
     box.addEventListener('click', function () {
         const category = box.id;
