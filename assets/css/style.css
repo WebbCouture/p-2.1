@@ -309,7 +309,7 @@ label, input, textarea {
 
 /* Media queries for responsiveness */
 
-@media (max-width: 1440px) {
+@media (max-width: 6016px) {
   #beauty-container {
     max-width: 40%;
     min-width: 140px;
