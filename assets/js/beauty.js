@@ -2,7 +2,15 @@
 
 /**
  * An object containing categorized beauty-related data.
- * Each key represents a category of beauty products or tools.
+ * Each key represents a category of beauty products, tools, or services.
+ * Each category holds an array of item objects with title, benefits, and imageUrl.
+ *
+ * @typedef {Object} BeautyItem
+ * @property {string} title - The name of the beauty item.
+ * @property {string} benefits - The main benefit or purpose of the item.
+ * @property {string} imageUrl - A URL pointing to an image of the item.
+ *
+ * @type {Object.<string, BeautyItem[]>}
  */
 export const beautyData = {
   hairbeauty: [
