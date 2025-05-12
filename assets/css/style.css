@@ -308,35 +308,8 @@ label, input, textarea {
 }
 
 /* Media queries for responsiveness */
-@media (min-width: 400px) {
-  .box img {
-    display: block;
-    max-height: 150px;
-    max-width: 150px;
-  }
 
-  .beauty-card {
-    max-width: 300px;
-  }
-
-  #beauty-title,
-  #content-title {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 992px) {
-  #beauty-container {
-    max-width: 350px;
-  }
-
-  .box img {
-    max-height: 200px;
-    max-width: 200px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
   #beauty-container {
     max-width: 40%;
     min-width: 140px;
@@ -387,7 +360,58 @@ label, input, textarea {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1199px) {
+  #beauty-container {
+    max-width: 40%;
+    min-width: 140px;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box.active {
+    width: 100%;
+  }
+
+  .box h3 {
+    font-size: 0.9rem;
+  }
+
+  .box img {
+    max-height: 80px;
+    max-width: 80px;
+  }
+
+  .cards {
+    max-width: 55%;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .beauty-card {
+    max-width: 100%;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  .beauty-title {
+    font-size: 1rem;
+  }
+
+  .beauty-link {
+    font-size: 0.8rem;
+  }
+
+  .card-header {
+    height: 100px;
+  }
+
+  .card-header img {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 599px) {
   #beauty-container {
     min-width: 120px;
   }
